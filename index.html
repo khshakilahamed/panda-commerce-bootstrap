@@ -192,7 +192,7 @@
         </section>
 
         <!-- bags section -->
-        <section id="bags" class="container my-5">
+        <section id="bagpack" class="container my-5">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -254,9 +254,10 @@
                 </h2>
                 <p>Get updates on sales, specials and more
                 </p>
-                <input class="form-control" type="text" placeholder="your Email">
+                <input id="text-field" class="form-control" type="text" placeholder="your Email">
                 <br>
-                <button class="btn panda-btn-buy-now">Submit</button>
+                <button id='email-submit-btn' class="btn panda-btn-buy-now" disabled>Submit</button>
+                <button id="extra-js-btn" class="btn panda-btn-buy-now">Extra-JS</button>
             </div>
         </section>
     </main>
@@ -266,6 +267,9 @@
     </footer>
 
 
+
+    <!-- ---------------------------- javascript -----------------------  -->
+    <script src="js/javascript.js"></script>
 
     <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
